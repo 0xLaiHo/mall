@@ -139,7 +139,7 @@ CREATE TABLE `mall_shipping` (
 
 INSERT INTO `mall_shipping` (`id`, `user_id`, `receiver_name`, `receiver_phone`, `receiver_mobile`, `receiver_province`, `receiver_city`, `receiver_district`, `receiver_address`, `receiver_zip`, `create_time`, `update_time`)
 VALUES
-	(4,1,'廖师兄','010','18688888888','北京','北京市','海淀区','中关村慕课网大楼','100000','2000-01-22 14:26:25','2000-01-22 14:26:25');
+	(4,1,'jack','010','18688888888','北京','北京市','海淀区','中关村','100000','2000-01-22 14:26:25','2000-01-22 14:26:25');
 
 DROP TABLE IF EXISTS `mall_user`;
 CREATE TABLE `mall_user` (
