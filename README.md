@@ -1,5 +1,6 @@
 # mall
 mall电商平台系统
+项目介绍：mall项目为全模块电商平台，pay项目为通用性支付系统
 
 开发环境：
 
@@ -17,7 +18,9 @@ Redis 5.X
 
 Mybatis 3.X
 
-RabbitMq 3.8
+RabbitMq 3.8.X
+
+Maven 3.6.X
 
 NAT APP(内网穿透工具)
 
