@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5ee12e8-2401-4cb6-beec-3e86aede859e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/MallApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/UserLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/consts/MallConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/ShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/enums/PaymentTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/enums/ProductStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/enums/ResponseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/enums/RoleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/exception/RuntimeExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/exception/UserLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/CartAddForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/CartUpdateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/OrderCreateForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/ShippingForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/UserLoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/form/UserRegisterForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/listener/PayMsgListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/PayInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/Shipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/ICartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/IShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/ShippingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/CartProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/CartVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/OrderItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/OrderVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/ProductDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/ProductVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mall/vo/ResponseVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderItermMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/MallApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/CategoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/ICartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/IOrderServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/IProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/IShippingServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/mall/service/impl/UserServiceImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/Program Files/Maven/apache-maven-3.6.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V6N6u8hvgsyw75ZRSEYMT1HmpA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.mall.service" />
+      <recent name="com.example.mall.service.impl" />
+      <recent name="com.example.mall.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.mall.pojo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.mall.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MallApplication">
+    <configuration name="IOrderServiceTest.cancel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mall.service.IOrderServiceTest" />
+      <option name="METHOD_NAME" value="cancel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOrderServiceTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mall.service.IOrderServiceTest" />
+      <option name="METHOD_NAME" value="create" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOrderServiceTest.detail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mall.service.IOrderServiceTest" />
+      <option name="METHOD_NAME" value="detail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IOrderServiceTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mall.service.IOrderServiceTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IShippingServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mall.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mall.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mall.service.IShippingServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mall.MallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IOrderServiceTest.cancel" />
+        <item itemvalue="JUnit.IOrderServiceTest.detail" />
+        <item itemvalue="JUnit.IOrderServiceTest.list" />
+        <item itemvalue="JUnit.IOrderServiceTest.create" />
+        <item itemvalue="JUnit.IShippingServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5ee12e8-2401-4cb6-beec-3e86aede859e" name="Default Changelist" comment="" />
+      <created>1576569412195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576569412195</updated>
+      <workItem from="1576569416617" duration="1943000" />
+      <workItem from="1576903903230" duration="27000" />
+      <workItem from="1580378054453" duration="4425000" />
+      <workItem from="1582027899137" duration="13580000" />
+      <workItem from="1582079919087" duration="1119000" />
+      <workItem from="1582116440747" duration="4786000" />
+      <workItem from="1582294212065" duration="1174000" />
+      <workItem from="1582305713088" duration="26000" />
+      <workItem from="1582454894541" duration="52084000" />
+      <workItem from="1582770157194" duration="48845000" />
+      <workItem from="1583028857172" duration="43469000" />
+      <workItem from="1583245404519" duration="40245000" />
+      <workItem from="1583462523212" duration="7599000" />
+      <workItem from="1583510210169" duration="1658000" />
+    </task>
+    <task id="LOCAL-00001" summary="mall project 1st">
+      <created>1583510538052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583510538052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="mall project 1st" />
+    <option name="LAST_COMMIT_MESSAGE" value="mall project 1st" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="405" y="138" key="#Project_Structure" timestamp="1583510506269">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="405" y="138" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1583510506269" />
+    <state x="627" y="237" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583117194361">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="627" y="237" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583117194361" />
+    <state x="721" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1583418180750">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="721" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1583418180750" />
+    <state x="726" y="372" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582460679868">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="726" y="372" width="467" height="347" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1582460679868" />
+    <state x="290" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582638379751">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="290" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582638379751" />
+    <state x="627" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582792364257">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="627" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582792364257" />
+    <state x="508" y="62" key="CommitChangelistDialog2" timestamp="1583510537241">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="508" y="62" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1583510537241" />
+    <state x="772" y="289" key="FileChooserDialogImpl" timestamp="1583512614976">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="772" y="289" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1583512614976" />
+    <state width="1865" height="339" key="GridCell.Tab.0.bottom" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.0.center" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.0.left" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.0.right" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.1.bottom" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.1.center" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.1.left" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="339" key="GridCell.Tab.1.right" timestamp="1583509080962">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="339" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583509080962" />
+    <state width="1865" height="232" key="GridCell.Tab.2.bottom" timestamp="1582709238655">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="232" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582709238655" />
+    <state width="1865" height="232" key="GridCell.Tab.2.center" timestamp="1582709238655">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="232" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582709238655" />
+    <state width="1865" height="232" key="GridCell.Tab.2.left" timestamp="1582709238655">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="232" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582709238655" />
+    <state width="1865" height="232" key="GridCell.Tab.2.right" timestamp="1582709238655">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1865" height="232" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582709238655" />
+    <state x="377" y="112" key="Maven.ArtifactSearchDialog" timestamp="1582043460691">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="377" y="112" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1582043460691" />
+    <state x="345" y="93" key="SettingsEditor" timestamp="1583512448989">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="345" y="93" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583512448989" />
+    <state x="725" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583164088663">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="725" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1583164088663" />
+    <state x="92" y="92" width="1736" height="896" key="dock-window-1" timestamp="1583117063087">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="92" y="92" width="1736" height="896" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1583117063087" />
+    <state x="230" y="72" key="new project wizard" timestamp="1582116679708">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="230" y="72" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1582116679708" />
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1582995270271">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1582995270271" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mall$OrderMapperTest.ic" NAME="OrderMapperTest Coverage Results" MODIFIED="1582043372047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.mall.dao.*</FILTER>
+    </SUITE>
+  </component>
+</project>
