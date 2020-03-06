@@ -18,7 +18,7 @@ Redis 5.X
 
 Mybatis 3.X
 
-RabbitMq 3.8.X
+RabbitMQ 3.8.X
 
 Maven 3.6.X
 
